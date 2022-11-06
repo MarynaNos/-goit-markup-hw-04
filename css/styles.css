@@ -287,12 +287,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    padding-bottom: 30px;
 }
-.social-icon{
-    padding: 12px;
-    fill: #AFB1B8;
+/* .socials{
+    border-radius: 50%;
+} */
+.social-link{
+    width: 44px;
+    height: 44px;
+    
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon{
+    fill: var(--background-color);
+    background-color: var(--active-color);
 }
 
+.social-icon{
+    /* width: 20px;
+    height: 20px; */
+    padding: 12px;
+    fill: #AFB1B8;
+    /* border-radius: 50%; */
+}
+/* .social-link> .social-icon{
+    border-radius: 50%; */
+}
 /* Portfolio */
 .btn-list {
     display: flex;
