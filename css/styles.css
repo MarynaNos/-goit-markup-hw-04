@@ -128,7 +128,14 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+.contacts-icon{
+    fill: var(--text-color);
+    margin-right: 10px;
+}
 .contacts-header {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -145,6 +152,10 @@ body {
 .contacts-header:hover,
 .contacts-header:focus {
     color: var(--active-color);
+}
+.contacts-header:hover .contacts-icon,
+.contacts-header:focus .contacts-icon{
+    fill: var(--active-color);
 }
 .btn {
     cursor: pointer;
@@ -271,6 +282,15 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
+}
+.social-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon{
+    padding: 12px;
+    fill: #AFB1B8;
 }
 
 /* Portfolio */
