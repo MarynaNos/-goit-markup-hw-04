@@ -124,15 +124,17 @@ body {
 .navigation-item-list:not(:first-child){
     margin-left: 50px;
 }
-.contacts-list-item{
+/* .contacts-list-item{
     padding-top: 32px;
     padding-bottom: 32px;
-}
+} */
 .contacts-icon{
     fill: var(--text-color);
     margin-right: 10px;
 }
 .contacts-header{
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -226,6 +228,7 @@ body {
     min-width: 270px;
     min-height: 120px;
     margin-bottom: 30px;
+    background-color: #F5F4FA;;
 }
 .advantages-title {
     margin-bottom: 10px;
@@ -262,7 +265,8 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 .name-card{
-    padding: 30px 0; 
+    padding-top: 30px; 
+    margin-bottom: 16px;
 }
 .name {
     margin-bottom: 10px;
